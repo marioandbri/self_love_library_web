@@ -1,10 +1,7 @@
-import { Box, Button, Flex, Spacer } from "@chakra-ui/react";
+import { Flex, Box, Spacer, Button } from "@chakra-ui/react";
 import React from "react";
-import { Container } from "../components/Container";
 
-interface IProps {}
-
-const Index: React.FC<IProps> = () => {
+const Navbar: React.FC = () => {
   return (
     <>
       <Flex
@@ -41,4 +38,4 @@ const Index: React.FC<IProps> = () => {
   );
 };
 
-export default Index;
+export default Navbar;
